@@ -1,0 +1,13 @@
+echo -e "installing oh my zsh"
+
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+!!open gedit
+gedit .zshrc
+
+
+< --themes -->
+
+ZSH_THEME="blinks"
